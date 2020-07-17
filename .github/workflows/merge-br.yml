@@ -3,8 +3,8 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
-    # - cron:  '0 0-23 * * *' '*/15 * * * *'    
-    - cron:  '*/15 * * * *'
+    - cron:  '0 0 * * 0'    
+    # - cron:  '*/15 * * * *'
 
 jobs:
   merge:
